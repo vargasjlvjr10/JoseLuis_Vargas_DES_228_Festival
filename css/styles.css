@@ -1,0 +1,113 @@
+body {
+    background-color: #49274A;
+    margin: 0;
+}
+
+header {
+    background-color: #49274A;
+    font-family: 'Adobe Caslon Pro', serif;
+    margin: 0;
+}
+
+.brand {
+    text-align: center;
+    background-color: #94618E;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+}
+
+.brand:hover a {
+    color: #49274A;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    height: 40px;
+    background-color: #49274A;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    line-height: 40px;
+}
+
+nav a:hover {
+    color: #94618E;
+    background-color: #2B162B;
+}
+
+nav h1 {
+    color: white;
+    margin: 0;
+    padding: 20px 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title {
+    animation: moveTitle 3s ease-in-out infinite;
+}
+
+.title {
+    font-family: 'Adobe Caslon Pro', serif;
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 130px;
+    color: white;
+    background-color: #94618E;
+    animation: moveTitle 3s ease-in-out forwards;
+}
+
+@keyframes moveTitle {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+}
+}
+
+.bodytext {
+    font-family: 'Adobe Caslon Pro', serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 50px 80px ;
+    font-size: 30px;
+    color: white;
+}
